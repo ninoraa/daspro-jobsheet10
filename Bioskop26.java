@@ -24,8 +24,8 @@ public class Bioskop26 {
 
         System.out.println(penonton.length);
 
-        for (int i = 0; i < penonton.length; i++) {
-            System.out.println("panjang baris ke-" + (i = 1) + ": " + penonton[i].length);
-        }
+       for (String[] barisPenonton : penonton) {
+        System.out.println("Panjang baris: " + barisPenonton.length);
+ }
     }
 }
